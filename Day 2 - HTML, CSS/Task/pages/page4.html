@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="centered" style="margin-top: 100px;">
+    <form action="page5.html">
+    <table cellPadding="0px" cellSpacing="2px"  style="text-align: center;">
+
+        <tbody>
+            <tr>
+                <td >
+                    <div> 
+                        <label for="u1" >First Name</label>
+                    </div> 
+                </td>
+                <td >
+                    <div>           
+                        <input id="u1" type="text" name="firstName" >
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td >
+                    <div>
+                        <label for="u2" >Last name</label>
+                    </div>
+                </td>
+                
+                <td >
+                    <div>
+                        <input id="u2" type="text" name="lastName"  >
+                    </div>
+                </td>
+            </tr>    
+
+            <tr>
+ 
+                <td >  
+                    <div>
+                        <label for="p1">Password:</label>
+                    </div>    
+                </td>
+                <td>
+                    <div>
+                        <input id="p1" type="password" name="password">
+                    </div>
+                </td>
+            </tr>    
+            <tr>
+                <td >
+                    <div> 
+                        <label for="b1" >Birthday</label>
+                        <input id="b1" name = "month" type="month" placeholder="[Select month]">
+                    </div> 
+                </td>
+                <td >
+                        <input style="display: inline;" id="b2" type="text" name="day" placeholder="dd" >
+                        <input style="display: inline;" id="b3" type="text" name="year" placeholder="yyyy" >
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+
+
+                <td rowspan="2" style="font-size: 30px;">Gender</td>
+                <td>
+                    <div>
+                        <input value="Male" name="Gender" id ="M" type="radio">
+                        <label for = "M">Male</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <input value="Female" name="Gender" id = "F" type="radio">
+                        <label for="F">Female</label>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="font-size: 30px; text-align: center; text-decoration: underline;">Interests</td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input value="Sports" name="Interests" id ="int1" type="checkbox">
+                    <label for = "int1">Sports</label>
+                </td>
+                <td>
+                    <input value="Music" name="Interests" id ="int2" type="checkbox">
+                    <label for = "int2">Music</label>
+                </td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    <input value="Books" name="Interests" id ="int3" type="checkbox">
+                    <label for = "int3">Books</label>
+                </td>
+                <td>
+                    <input value="Computer Stuff" name="Interests" id ="int4" type="checkbox">
+                    <label for = "int4">Computer Stuff</label>
+                </td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    <input value="Fashion" name="Interests" id ="int5" type="checkbox">
+                    <label for = "int5">Fashion</label>
+                </td>
+                <td>
+                    <input value="Movies" name="Interests" id ="int6" type="checkbox">
+                    <label for = "int6">Movies</label>
+                </td>
+
+
+            </tr> 
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="login">  
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    </form>
+    </div>
+
+
+</body>
+</html>

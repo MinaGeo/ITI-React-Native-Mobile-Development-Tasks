@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+    <form action="../pages/page1.html">
+        <div class="field-container">
+            <fieldset>
+                <legend>Registeration</legend>
+                <div>
+                    <label for="u1" >Username:</label>    
+                    <input id="u1" type="text" name="userName" placeholder="Enter your Text Value here" >
+                </div>
+                <br>
+                <div>
+                    <label for="p1">Password:</label>
+                    <input id="p1" type="password" name="password">
+                </div>
+                <br>
+                <div>
+                    <label for = "c1">Select your location</label>
+                    <select id="c1" name="Country">
+                        <optgroup label="Africa">
+                            <option>Egypt</option>
+                            <option>Sudan</option>
+                            <option>Namibia</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                        <!-- <optgroup disabled label="Coast Egypt"> -->
+                            <option>France</option>
+                            <option>Russia</option>
+                            <option>UK</option>
+                        </optgroup>
+
+                        <optgroup disabled label="North America">
+                            <option>Canada</option>
+                            <option>Mexico</option>
+                            <option>USA</option>
+                        </optgroup>
+                        
+                    </select>
+
+                </div>
+                <br>
+                <div>
+                    <input id="ch1" type="checkbox" name="checkbox">
+                    <label for="ch1" >Remember Me</label>
+                </div>
+                <br>
+
+
+
+                <input type="submit" value="login">  
+                <input type="reset" value="Reset">  
+        
+            </fieldset>
+        </div>
+
+
+
+    </form>
+
+    
+</body>
+</html>

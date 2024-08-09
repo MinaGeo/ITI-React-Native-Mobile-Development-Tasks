@@ -1,0 +1,127 @@
+
+/*Headers*/
+h1,h2,h3 {color: #e52165; text-align: center;}
+/*Body*/
+body{background-color: #0d1137;
+   }
+
+
+form {text-align: center;}
+label {color:#e52165;}
+
+title{font-family: 'Times New Roman', Times, serif;}
+
+.page1-p{
+    color: #e52165; text-align: right; text-decoration: underline; text-decoration-style:wavy;
+    text-decoration-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif; font-size: 30px;
+    font-style: italic;
+}
+
+.indented-list {
+    padding-left: 40px;
+    list-style-type: disc;
+    font-size: 20px;
+    color: white;
+}
+.indented-list-numbers {
+    padding-left: 40px;
+    list-style-type: upper-roman;
+    font-size: 20px;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+
+.image-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field-container {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; /* Adjust maximum width as desired */
+    margin: 0 auto;
+  }
+
+  input[type="submit"], input[type="reset"] {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #e52165; /* Replace with your desired color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Optional: Rounded corners */
+  }
+
+optgroup[label]
+{
+    font-size: large;    
+    font-style: italic;
+    font-style: bold;
+
+}
+legend
+{
+    color: #e52165;
+}
+
+td,th{
+    color: white;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 20px;
+    /* color: #0d1137; */
+}
+table {
+    box-shadow: 10px 10px 1px 10px rgb(138, 75, 75); /* Bottom-right shadow */
+    
+
+    width: 40%;
+    border-collapse: collapse; /* Collapses borders */
+
+    margin: auto;
+    margin-top: 50px;
+    table-layout: fixed; /* Ensures equal column width */
+    background-color: #e68b8b;
+}
+label, input[type="text"], input[type="password"], input[type="month"] select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+th, td {
+    border: 10px solid #eb7a7a;
+
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    margin-left: 35%;
+    background-color: #d94e4e;
+    color: white;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #bf4343;
+}
+

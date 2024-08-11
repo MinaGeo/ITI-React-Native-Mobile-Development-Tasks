@@ -1,0 +1,44 @@
+
+
+input[type="button"]
+{
+    min-width: 200px;
+    margin-top: 50px;
+    background-color: #e52165;
+    color: white;
+    font-size: 20px;
+
+}
+input[type="submit"]
+{
+    min-width: 200px;
+    margin-top: 50px;
+    background-color: #e52165;
+    color: white;
+    font-size: 20px;
+}
+input[type="text"], input[type="number"]
+{
+    min-width: 200px;
+    margin-top: 20px;
+    background-color: #e52165;
+    color: white;
+    font-size: 20px;
+    display: block;
+
+}
+
+h1{
+    color: #e52165;
+
+}
+
+body{
+     background-color: #0d1137;
+}
+
+.image-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

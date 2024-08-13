@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 1</title>
+    
+</head>
+<body>
+
+    <form action="./page2.html">
+        <div>
+            <label>Enter Your Name: </label>
+            <input id="userName" type="text" placeholder="Enter name here">
+        </div><br>
+        <div>
+            <label>Enter Your Age: </label>
+            <input id="userAge" type="text" placeholder="Enter age here">
+        </div><br>
+        <div>
+            <label>Select your Gender: </label><br><br>
+            <input type="radio" value="male" id="maleGender" onclick="toggleGender('male')">
+            <img src="../images/1.jpg">
+        
+            <input type="radio" value="female" id="femaleGender" onclick="toggleGender('female')">
+            <img src="../images/2.jpg" >
+        </div><br>
+        <div>
+            Select your favorite color: <select id="userColor">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" onclick="CreatePercookies()"  value="register" >
+        </div>
+    </form>
+
+    
+    
+    <script src="../helper/cookieLib.js"></script>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
+
+
+
+    <!-- <img onmouseout="chgImgBack()" onmouseover="chgImg()" src="../images/1.jpg" id="img1"> -->
+    <!-- <br> -->
+    <!-- <input onkeydown="getData()" id="inp1" type="text" placeholder="Enter name"> -->
+    <!-- <input onkeyup="getData()" id="inp1" type="text" placeholder="Enter name"> -->
+    <!-- <input onfocus="getData()" id="inp1" type="text" placeholder="Enter name"> -->
+    <!-- <input onblur="getData()" id="inp1" type="text" placeholder="Enter name"> -->
+    <!-- <input oninput="getData()" id="inp1" type="text" placeholder="Enter name"> -->
+    
+    <!-- <p id ="p1">Name: </p> -->
+<!--     
+    <div id="div1">
+
+    </div> -->
+<!--     
+    <input type="button" onclick="CreateSessioncookies()" value="create">
+    <input type="button" onclick="CreatePercookies()" value="create persistent">
+    <input type="text" placeholder="enter name"  id = "inp1">
+     -->

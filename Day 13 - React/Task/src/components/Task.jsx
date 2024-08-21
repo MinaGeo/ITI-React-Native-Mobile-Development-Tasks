@@ -32,7 +32,7 @@ class Task extends Component {
                     original_title: movie.original_title,
                     id: movie.id,
                     name: movie.title,
-                    original_language: movie.original_language,
+                    original_language: this.getLanguageName(movie.original_language),
                     release_date: movie.release_date,
                     rating: movie.vote_average,
                     description: movie.overview,
@@ -44,7 +44,16 @@ class Task extends Component {
             })
             .catch(err => console.error(err));
     }
-
+    getLanguageName = (code) => {
+        const languageMap = {
+            en: 'English',
+            hi: 'Hindi',
+            zh: 'Chinese',
+            fr: 'French',
+            ko: 'Korean',
+        };
+        return languageMap[code] || code; // Return the full name or the code if not found
+    }
     render() {
         if (this.state.loading) return <div>Loading movies...</div>;
 

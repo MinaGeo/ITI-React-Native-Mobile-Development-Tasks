@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "Title": "Avatar",
+      "Year": "2009",
+      "Genre": "Action, Adventure, Fantasy",
+      "Plot": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+      "Poster": "https://image.tmdb.org/t/p/original/kyeqWdyUXW608qlYkRqosgbbJyK.jpg"
+    },
+    {
+      "id": "2",
+      "Title": "I Am Legend",
+      "Year": "2007",
+      "Genre": "Drama, Horror, Sci-Fi",
+      "Plot": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+      "Poster": "https://image.tmdb.org/t/p/original/iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg"
+    },
+    {
+      "id": "3",
+      "Title": "300",
+      "Year": "2006",
+      "Genre": "Action, Drama, Fantasy",
+      "Plot": "King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.",
+      "Poster": "https://image.tmdb.org/t/p/original/h7Lcio0c9ohxPhSZg42eTlKIVVY.jpg"
+    },
+    {
+      "id": "4",
+      "Title": "The Avengers",
+      "Year": "2012",
+      "Genre": "Action, Sci-Fi, Thriller",
+      "Plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "Poster": "https://image.tmdb.org/t/p/original/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+    },
+    {
+      "id": "5",
+      "Title": "Interstellar",
+      "Year": "2014",
+      "Genre": "Adventure, Drama, Sci-Fi",
+      "Plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "Poster": "https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+      "id": "ef3ab4ca-c1fe-469d-b1a3-77fa88317fb7",
+      "Title": "Pirates of the Caribbean: On Stranger Tides",
+      "Year": "2011",
+      "Genre": "Adventure, Action, Fantasy",
+      "Plot": "Captain Jack Sparrow crosses paths with a woman from his past, and he's not sure if it's love -- or if she's a ruthless con artist who's using him to find the fabled Fountain of Youth. When she forces him aboard the Queen Anne's Revenge, the ship of the formidable pirate Blackbeard, Jack finds himself on an unexpected adventure in which he doesn't know who to fear more: Blackbeard or the woman from his past.",
+      "Poster": "https://image.tmdb.org/t/p/w1280/keGfSvCmYj7CvdRx36OdVrAEibE.jpg"
+    },
+    {
+      "id": "c69db746-993a-4d2b-807f-1c31e42f1307",
+      "Title": "Spirited Away",
+      "Year": "2001",
+      "Genre": "Animation, Family, Fantasy",
+      "Plot": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+      "Poster": "https://image.tmdb.org/t/p/w1280/92KLPoMjIPTA6n190oSsMYCWZr7.jpg"
+    },
+    {
+      "id": "0617ef1d-6e50-4325-8774-efe01dd27817",
+      "Title": "Harry Potter and the Prisoner of Azkaban",
+      "Year": "2004",
+      "Genre": "Adventure, Fantasy",
+      "Plot": "Year three at Hogwarts means new fun and challenges as Harry learns the delicate art of approaching a Hippogriff, transforming shape-shifting Boggarts into hilarity and even turning back time. But the term also brings danger: soul-sucking Dementors hover over the school, an ally of the accursed He-Who-Cannot-Be-Named lurks within the castle walls, and fearsome wizard Sirius Black escapes Azkaban. And Harry will confront them all.",
+      "Poster": "https://www.themoviedb.org/t/p/w1280/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg"
+    }
+  ]
+}

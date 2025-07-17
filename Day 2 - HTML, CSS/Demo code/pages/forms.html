@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <fieldset style="background-color: chartreuse;">
+            <legend>Registeration</legend>
+
+            <div>
+                <h5>Gender</h5>
+                <div>
+                    <input value="Male" name="Gender" id ="M" type="radio">
+                    <label for = "M">Male</label>
+                </div>
+                <div>
+                    <input value="Female" name="Gender" id = "F" type="radio">
+                    <label for="F">Female</label>
+                </div>
+            </div>
+            <div>
+                <h5>Interests</h5>
+                    <input value="Swimming" name="Interests" id ="sw1" type="checkbox">
+                    <label for = "sw1">Swimming</label>
+                    <input value = "Reading" name="Interests" id = "r1" type="checkbox">
+                    <label for="r1">Reading</label>
+                    <input value = "Football" name="Interests" id = "f1" type="checkbox">
+                    <label for="f1">Football</label>
+            </div>
+            <br>
+            <div>
+                <select multiple size="1" name="City">
+                    <optgroup label="lower Egypt">
+                        <option>Cairo</option>
+                        <option>Giza</option>
+                    </optgroup>
+                    <optgroup label="Coast Egypt">
+                    <!-- <optgroup disabled label="Coast Egypt"> -->
+                        <option>Alex</option>
+                        <option>Sa7el</option>
+                    </optgroup>
+
+                </select>
+
+            </div>
+            
+            <div>
+                <label for="u1" >Username:</label>    
+                <input id="u1" type="text" name="userName" placeholder="Enter your Text Value here" >
+            </div>
+            <br>
+            <div>
+                <label for="p1">Password:</label>
+                <input id="p1" type="password" name="password">
+            </div>
+            <br>
+            <div>
+                <input id="ch1" type="checkbox" name="checkbox">
+                <label for="ch1" >Remember Me</label>
+            </div>
+            <br>
+
+
+
+            <input type="submit" value="login">  
+            <input type="reset" value="Reset">  
+    
+        </fieldset>
+
+
+
+    </form>
+
+<!-- 
+    <input type="text">
+    <input type="number">
+    <input type="date">
+    <input type="color">
+    <input type="email">
+
+    <input type="button" value="ADD"> -->
+    
+</body>
+</html>
